@@ -1,0 +1,9 @@
+@media (max-width: 1400px) {
+    #header {
+      left: -300px;
+    }
+    #main {
+      margin-left: 0;
+    }
+  }
+  
