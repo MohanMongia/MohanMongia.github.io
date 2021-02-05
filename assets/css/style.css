@@ -1212,3 +1212,7 @@ html {
 .bx-cloud-download {
   vertical-align: bottom;
 }
+
+.form {
+  border: 3px solid #149ddd;
+}
