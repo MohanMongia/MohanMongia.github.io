@@ -1141,7 +1141,7 @@ form label {
   -webkit-backdrop-filter: blur(5px);
 }
 
-#about, #resume, #contact, #portfolio, #skills{
+#about, #resume, #contact, #portfolio, #skills, .parent-resume_button{
   background: black;
   color: #fff;
 }
@@ -1193,5 +1193,18 @@ html {
 }
 
 .bx-right-arrow-circle { 
+  vertical-align: bottom;
+}
+
+.resume-button {
+  background: #149ddd;
+  border: 0;
+  padding: 10px 24px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 10px;
+  outline: none !important;
+}
+.bx-cloud-download {
   vertical-align: bottom;
 }
