@@ -227,3 +227,25 @@ $('.resume-button').on('mouseover',() => {
 $('.resume-button').on('mouseout',() => {
   $('.bx-cloud-download').removeClass('bx-tada');
 });
+
+
+$('.address').on('mouseover', () => {
+  $('.address i').addClass('bx-tada');
+})
+$('.address').on('mouseout', () => {
+  $('.address i').removeClass('bx-tada');
+})
+
+$('.phone').on('mouseover', () => {
+  $('.phone i').addClass('bx-tada');
+})
+$('.phone').on('mouseout', () => {
+  $('.phone i').removeClass('bx-tada');
+})
+
+$('.email').on('mouseover', () => {
+  $('.email i').addClass('bx-tada');
+})
+$('.email').on('mouseout', () => {
+  $('.email i').removeClass('bx-tada');
+})
