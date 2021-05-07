@@ -1177,7 +1177,7 @@ form label {
 #about{
   z-index: 100;
 }
-#about, #resume, #contact, #portfolio, #skills{
+#about, #resume, #contact, #portfolio, #skills, #portfolio{
   background: black;
   color: #fff;
   z-index: 200;
